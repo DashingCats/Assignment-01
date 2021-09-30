@@ -1,0 +1,17 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>90</y><w>210</w><h>260</h></coordinates><panel_attributes>Player
+--
+- rb : Rigidbody
+- movespeed : int
+- dirX : float
+- dirY : float
+- dirZ : float
+- isGrounded : bool
+
++ theGameManager : GameManager
++ jump : int
+--
+Start()
+Update()
+- FixedUpdate()
+- OnCollisionEnter(Collision collision)
+- OnCollisionExit(Collision collision)</panel_attributes><additional_attributes></additional_attributes></element></diagram>
